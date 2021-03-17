@@ -12,6 +12,13 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+.rst__rowContents {
+  cursor:pointer;
+}
+.selected-tree-node .rst__rowContents {
+  /*background-color: #e6e6e6;*/
+  border: solid black 1px
+}
 
 .App-header {
   background-color: #282c34;
